@@ -33,7 +33,25 @@ NPM: 200648310
 
 ## Console Report Screenshot
 ### Endpoint: all-student-name
+#### 1. Command:
+```
+jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_2.jmx -l test-plans/adpro/tutorial-5/1/test_result_2.jtl
+```
+![img_8.png](img_8.png)
+
+#### 2. Result:
+![img_9.png](img_9.png)
+
 ### Endpoint: highest-gpa
+#### 1. Command:
+```
+jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_3.jmx -l test-plans/adpro/tutorial-5/1/test_result_3.jtl
+```
+![img_10.png](img_10.png)
+
+#### 2. Result:
+![img_11.png](img_11.png)
+
 # Profiling
 ## Before Optimization
 ## After Optimization
