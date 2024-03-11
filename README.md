@@ -54,4 +54,6 @@ jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_3.jmx -l test-plans/adpro/t
 
 # Profiling
 ## Before Optimization
+![img_12.png](img_12.png)
+
 ## After Optimization
