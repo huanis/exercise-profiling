@@ -65,3 +65,9 @@ jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_3.jmx -l test-plans/adpro/t
 
 ### After Optimization
 ![img_15.png](img_15.png)
+
+## Endpoint: highest-gpa
+### Before Optimization
+![img_16.png](img_16.png)
+
+### After Optimization
