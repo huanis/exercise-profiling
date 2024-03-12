@@ -53,7 +53,58 @@ jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_3.jmx -l test-plans/adpro/t
 ![img_11.png](img_11.png)
 
 # Profiling
-## Before Optimization
+## Endpoint: all-student
+### Before Optimization
 ![img_12.png](img_12.png)
 
-## After Optimization
+### After Optimization
+![img_13.png](img_13.png)
+
+### Result
+```
+Before = 3847
+After = 825
+((Before-After)/Before)*100% = 78%
+```
+
+## Endpoint: all-student-name
+### Before Optimization
+![img_20.png](img_20.png)
+
+### After Optimization
+![img_19.png](img_19.png)
+
+### Result
+```
+Before = 557
+After = 36
+((Before-After)/Before)*100% = 93%
+```
+
+## Endpoint: highest-gpa
+### Before Optimization
+![img_17.png](img_17.png)
+
+### After Optimization
+![img_18.png](img_18.png)
+
+### Result
+```
+Before = 96
+After = 15
+((Before-After)/Before)*100% = 84%
+```
+
+# Performance Test After Optimization
+# all-student-name
+![img_22.png](img_22.png)
+For the jtl report, it's appended to the previous report.
+![img_23.png](img_23.png)
+# highest-gpa
+![img_21.png](img_21.png)
+For the jtl report, it's appended to the previous report.
+![img_24.png](img_24.png)
+
+Conclusion: If you compare the sample time or elapsed time between the result before and after optimization, you can see that the elapsed time after optimization is shorter. Quicker. So yes, there is an improvement there.
+
+# Reflection
