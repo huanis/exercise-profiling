@@ -64,4 +64,4 @@ jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_3.jmx -l test-plans/adpro/t
 ![img_14.png](img_14.png)
 
 ### After Optimization
-
+![img_15.png](img_15.png)
