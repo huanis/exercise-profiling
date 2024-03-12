@@ -94,3 +94,15 @@ Before = 96
 After = 15
 ((Before-After)/Before)*100% = 84%
 ```
+
+# Performance Test After Optimization
+# all-student-name
+![img_22.png](img_22.png)
+For the jtl report, it's appended to the previous report.
+![img_23.png](img_23.png)
+# highest-gpa
+![img_21.png](img_21.png)
+For the jtl report, it's appended to the previous report.
+![img_24.png](img_24.png)
+
+# Reflection
