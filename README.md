@@ -105,4 +105,6 @@ For the jtl report, it's appended to the previous report.
 For the jtl report, it's appended to the previous report.
 ![img_24.png](img_24.png)
 
+Conclusion: If you compare the sample time or elapsed time between the result before and after optimization, you can see that the elapsed time after optimization is shorter. Quicker. So yes, there is an improvement there.
+
 # Reflection
