@@ -59,15 +59,38 @@ jmeter -n -t test-plans/adpro/tutorial-5/1/test_plan_3.jmx -l test-plans/adpro/t
 
 ### After Optimization
 ![img_13.png](img_13.png)
+
+### Result
+```
+Before = 3847
+After = 825
+((Before-After)/Before)*100% = 78%
+```
+
 ## Endpoint: all-student-name
 ### Before Optimization
-![img_14.png](img_14.png)
+![img_20.png](img_20.png)
 
 ### After Optimization
-![img_15.png](img_15.png)
+![img_19.png](img_19.png)
+
+### Result
+```
+Before = 557
+After = 36
+((Before-After)/Before)*100% = 93%
+```
 
 ## Endpoint: highest-gpa
 ### Before Optimization
-![img_16.png](img_16.png)
+![img_17.png](img_17.png)
 
 ### After Optimization
+![img_18.png](img_18.png)
+
+### Result
+```
+Before = 96
+After = 15
+((Before-After)/Before)*100% = 84%
+```

@@ -28,15 +28,9 @@ public class StudentService {
     }
 
     public Optional<Student> findStudentWithHighestGpa() {
-        List<Student> students = studentRepository.findAll();
+        List<Student> students = studentRepository.getStudentsWithHighestGpa();
         Student highestGpaStudent = null;
-        double highestGpa = 0.0;
-        for (Student student : students) {
-            if (student.getGpa() > highestGpa) {
-                highestGpa = student.getGpa();
-                highestGpaStudent = student;
-            }
-        }
+        if (!students.isEmpty()) highestGpaStudent = students.get(0);
         return Optional.ofNullable(highestGpaStudent);
     }
 
